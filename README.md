@@ -26,7 +26,7 @@ The current state of the robot is highlighted in the node graph, which can also 
 
 The camera arm first tracks and follows the face, and after raising one hand it starts to follow the respective hand. In the end the "Fist" gesture tells the robot to stop.
 
-<img src="cameraArmDemo.gif" />
+<img src="cameraArmDemo_Small.gif" />
 
 ### Node Graph Demonstration
 
