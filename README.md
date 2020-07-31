@@ -20,13 +20,13 @@ The "Fist" gesture at the end tells the robot and the camera arm to stop their m
 
 The current state of the robot is highlighted in the node graph, which can also be used to customize the flow of events as shown in the last section.
 
-<img src="handover_Small.gif" />
+<img src="handoverDemo.gif" />
 
 ### Camera Arm Demonstration
 
 The camera arm first tracks and follows the face, and after raising one hand it starts to follow the respective hand. In the end the "Fist" gesture tells the robot to stop.
 
-<img src="cameraArmDemo_Small.gif" />
+<img src="cameraArmDemo.gif" />
 
 ### Node Graph Demonstration
 
