@@ -1,4 +1,4 @@
-## Handover Demonstration
+### Handover Demonstration
 
 <img src="handoverDemo.gif" />
 
@@ -10,13 +10,13 @@ The "Fist" gesture at the end tells the robot and the camera arm to stop their m
 
 The current state of the robot is highlighted in the node graph, which can also be used to customize the flow of events as shown in the last section.
 
-## Camera Arm Demonstration
+### Camera Arm Demonstration
 
 The camera arm first tracks and follows the face, and after raising one hand it starts to follow the respective hand.
 
 <img src="cameraArmDemo.gif" />
 
-## Node Graph Demonstration
+### Node Graph Demonstration
 
 Some states in the node graph can be disabled / enabled if needed, links between states can be deleted which will disable the respective state transition or new links can be created in order to change the flow of events (for example after the handover is performed, stop the application etc.)
 
