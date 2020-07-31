@@ -20,7 +20,7 @@ The "Fist" gesture at the end tells the robot and the camera arm to stop their m
 
 The current state of the robot is highlighted in the node graph, which can also be used to customize the flow of events as shown in the last section.
 
-<img src="handover.gif" />
+<img src="handover_Small.gif" />
 
 ### Camera Arm Demonstration
 
