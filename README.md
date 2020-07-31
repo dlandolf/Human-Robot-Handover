@@ -1,17 +1,15 @@
 ## Introduction
-Using a robotic camera arm mounted on a Yumi robot, the goal is to achieve natural human-robot handovers. To do so, different gesture recognition modalities (vision based and data driven) together with modern trajectory optimization algorithms are combined.
+Using a robotic camera arm mounted on a Yumi robot (a robot with 2 arms), the goal is to achieve natural human-robot handovers. To do so, different gesture recognition modalities (vision based and data driven) together with modern trajectory optimization algorithms are combined.
 
 ### Handover Demonstration
 
 <img src="handoverDemo.gif" />
 
-The Camera Arm first follows the face and starts to follow the hand that raises above the nose.
-Then, a "Handover" gesture is performed (the open hand is reached out towards the robot), which means the person wants something from the robot.
-At that moment, the hand location is determined (using stereo vision), which is indicated as small red sphere in the demo.
+The camera arm first follows the face and starts to follow the hand that raises above the nose.
+Then, a "Handover" gesture is performed (the open hand is reached out towards the robot), which means the person wants the robot to initialize a handover.
+At that moment, the hand location is determined (using stereo vision). This location is indicated as a small red sphere in front of the robot in the visualization.
 As a next step, a Trajectory Optimization is done, which avoids crashing into the hand of the human and ensures that the robot arm slowly approaches the hand from above and moves back to its initial position after the handover is performed.
 The "Fist" gesture at the end tells the robot and the camera arm to stop their movements ("emergency stop").
-
-The current state of the robot is highlighted in the node graph, which can also be used to customize the flow of events as shown in the last section.
 
 ### Camera Arm Demonstration
 
@@ -20,8 +18,8 @@ The camera arm first tracks and follows the face, and after raising one hand it 
 <img src="cameraArmDemo.gif" />
 
 ### Node Graph Demonstration
-
-Some states in the node graph can be disabled / enabled if needed, links between states can be deleted which will disable the respective state transition or new links can be created in order to change the flow of events (for example after the handover is performed, stop the application etc.)
+The current state of the robot is highlighted in the node graph. It can also be used to customize the flow of events by enabling / disabling states, by deleting links which will disable the respective state transition
+or by creating new links (for example after the handover is performed, stop the application etc.).
 
 <img src="imguiDemo.gif" />
 
