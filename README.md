@@ -2,10 +2,10 @@
 Using a robotic camera arm (equipped with a ZED stereo camera) mounted on a YuMi robot (a fixed base robot with two arms), the goal is to achieve natural human-robot collaboration. This includes handovers of objects and teaching the robot motions by demonstrating them with the user's own arms. To do so, visual human pose estimation and gesture recognition together with modern trajectory optimization algorithms are combined. Depending on the recognized gesture, different actions are taken.
 
 ## Demonstration Videos
-#### Handovers
+### Handovers
 [![Demo Video](previewHandoverVideo.jpg)](https://drive.google.com/file/d/1yyncGYVv7DoV692pkiEP54egaygbp7yu/view?usp=sharing "Demo Video")
 
-#### Teach and repeat motions
+### Teach and repeat motions
 [![Demo Video Teaching](previewVideoTeach.jpg)](https://drive.google.com/file/d/1R-EjH70Cn7Vwk-38XOn4Rzy0uknQqzFN/view?usp=sharing "Demo Video Teaching")
 
 ## Overview of performed steps
