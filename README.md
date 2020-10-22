@@ -7,7 +7,7 @@ The full demonstration videos can be found here:
 
 
 ### Handover Demonstration
-[![Handover Demo]({https://drive.google.com/file/d/1zbI6nMTDBpbLEQrmlgo5-kln2L_NABVw/view?usp=sharing})]({https://drive.google.com/file/d/1f_R8vNQxLGKPczpm5T8_Konl_s7dW4F7/view?usp=sharing} "Handover Demo")
+[![Demo Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1603371977/video_to_markdown/images/google-drive--1f_R8vNQxLGKPczpm5T8_Konl_s7dW4F7-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1f_R8vNQxLGKPczpm5T8_Konl_s7dW4F7/view?usp=sharing "Demo Video")
 
 The camera arm first follows the face and starts to follow the hand that raises above the nose.
 Then, a "Handover" gesture is performed (the open hand is reached out towards the robot), which means the person wants the robot to initialize a handover.
