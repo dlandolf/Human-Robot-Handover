@@ -3,19 +3,19 @@ Using a robotic camera arm (equipped with a ZED stereo camera) mounted on a YuMi
 
 ## Demonstration Videos
 ### Handovers
-[![Demo Video](previewHandoverVideo.jpg)](https://drive.google.com/file/d/1yyncGYVv7DoV692pkiEP54egaygbp7yu/view?usp=sharing "Demo Video")
+[![Demo Video](images/previewHandoverVideo.jpg)](https://drive.google.com/file/d/1yyncGYVv7DoV692pkiEP54egaygbp7yu/view?usp=sharing "Demo Video")
 
 ### Teach and repeat motions
-[![Demo Video Teaching](previewVideoTeach.jpg)](https://drive.google.com/file/d/1R-EjH70Cn7Vwk-38XOn4Rzy0uknQqzFN/view?usp=sharing "Demo Video Teaching")
+[![Demo Video Teaching](images/previewVideoTeach.jpg)](https://drive.google.com/file/d/1R-EjH70Cn7Vwk-38XOn4Rzy0uknQqzFN/view?usp=sharing "Demo Video Teaching")
 
 ## Overview of performed steps
-<img src="overviewIntroduction.png" />
+<img src="images/overviewIntroduction.png" />
 
 ## Node Graph Demonstration
 The current state of the robot is highlighted in the node graph. It can also be used to customize the flow of events by enabling / disabling states, by deleting links which will disable the respective state transition
 or by creating new links (for example after the handover is performed, stop the application etc.).
 
-<img src="imguiDemo.gif" />
+<img src="images/imguiDemo.gif" />
 
 ## Content
 
